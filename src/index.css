@@ -6,3 +6,16 @@ body {
   font-family: "Open Sans", sans-serif;
 
 }
+.bigger_cards{
+  background: #FF5F6D;
+background: -webkit-linear-gradient(to top, #FFC371, #FF5F6D); 
+background: linear-gradient(to top, #FFC371, #FF5F6D); 
+
+}
+.bg-gradient-spotlight{
+  background: #43C6AC;  
+  background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC);  
+  background: linear-gradient(to bottom, #F8FFAE, #43C6AC);
+  
+
+}

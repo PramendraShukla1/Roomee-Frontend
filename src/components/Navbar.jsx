@@ -41,13 +41,13 @@ const Navbar = () => {
         <input type="text" placeholder="What are you searching for?" className="p-5 shadow-md rounded-full w-96 outline-none placeholder:text-lg text-lg text-gray-600"/>
         </div>
        <div>
-<FaRegUser size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer" />
+<FaRegUser size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer shadow-sm" />
        </div>
        <div>
-<FaRegHeart size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer" />
+<FaRegHeart size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer shadow-sm" />
        </div>
        <div>
-        <HiOutlineShoppingCart size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer" />
+        <HiOutlineShoppingCart size={30} className="text-gray-500 hover:text-[#059baa] cursor-pointer shadow-sm" />
        </div>
       </div>
     </div>

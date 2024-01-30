@@ -94,11 +94,11 @@ const Offers = () => {
                 </p>
               </div>
               <div className="ml-14">
-                <p className="text-gray-700 font-semibold">
+                <p className="text-gray-800 font-semibold">
                   Apply this coupon to get FLAT &#8377;2000 off on your monthly
                   rent and chill. Great reason to start renting today!
                 </p>
-                <p className="font-bold text-gray-700 mt-5">Use Coupon Code : ROM2000</p>
+                <p className="font-bold text-gray-800 mt-5">Use Coupon Code : ROM2000</p>
               </div>
             </div>
             
@@ -113,11 +113,11 @@ const Offers = () => {
                 </p>
               </div>
               <div className="ml-14">
-                <p className="text-gray-700 font-semibold">
+                <p className="text-gray-800 font-semibold">
                   Apply this coupon to get FLAT 30% off upto &#8377;1000 off on your monthly
                   rent and chill. Great reason to start renting today!
                 </p>
-                <p className="font-bold text-gray-700 mt-5">Use Coupon Code : ROM30</p>
+                <p className="font-bold text-gray-800 mt-5">Use Coupon Code : ROM30</p>
               </div>
             </div>
             
@@ -132,11 +132,11 @@ const Offers = () => {
                 </p>
               </div>
               <div className="ml-14">
-              <p className="text-gray-700 font-semibold">
+              <p className="text-gray-800 font-semibold">
                   Apply this coupon to get FLAT 50% off upto &#8377;1500 off on your monthly
                   rent and chill. Great reason to start renting today!
                 </p>
-                <p className="font-bold text-gray-700 mt-5">Use Coupon Code : ROM50</p>
+                <p className="font-bold text-gray-800 mt-5">Use Coupon Code : ROM50</p>
               </div>
             </div>
             
