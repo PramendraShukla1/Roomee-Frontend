@@ -42,17 +42,26 @@ const Footer = () => {
             <div>
               <ul className="flex flex-col gap-3 text-lg font-semibold text-gray-600">
                 <li className="hover:text-black cursor-pointer">Home</li>
-                <li className="hover:text-black cursor-pointer">Buy Furniture</li>
-                <li className="hover:text-black cursor-pointer">Rent Furniture</li>
-                <li className="hover:text-black cursor-pointer">Annual Returns</li>
+                <li className="hover:text-black cursor-pointer">
+                  Buy Furniture
+                </li>
+                <li className="hover:text-black cursor-pointer">
+                  Rent Furniture
+                </li>
+                <li className="hover:text-black cursor-pointer">
+                  Annual Returns
+                </li>
               </ul>
             </div>
             <div>
               <ul className="flex flex-col gap-3 text-lg font-semibold text-gray-600">
                 <li className="hover:text-black cursor-pointer">About Us</li>
-                <li className="hover:text-black cursor-pointer">Privacy Policy</li>
-                <li className="hover:text-black cursor-pointer">Terms and Conditions</li>
-               
+                <li className="hover:text-black cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li className="hover:text-black cursor-pointer">
+                  Terms and Conditions
+                </li>
               </ul>
             </div>
           </div>
@@ -67,18 +76,26 @@ const Footer = () => {
       <hr />
       <div className="p-20 flex">
         <div className="w-2/3">
-        <p className="font-semibold">CITIES WE DELIVER TO</p>
-<p>Bengaluru, Mumbai, Pune, Delhi, Gurugram, Noida, Hyderabad, Chennai, Ghaziabad, Faridabad, Jaipur, Mysuru, Chandigarh, Vijayawada, Nashik</p>
+          <p className="font-semibold">CITIES WE DELIVER TO</p>
+          <p>
+            Bengaluru, Mumbai, Pune, Delhi, Gurugram, Noida, Hyderabad, Chennai,
+            Ghaziabad, Faridabad, Jaipur, Mysuru, Chandigarh, Vijayawada, Nashik
+          </p>
         </div>
         <div className="w-1/3 flex gap-5">
-<img src={socialIcon5} alt="" className="w-52 h-auto"/>
-<img src={socialIcon6} alt="" className="w-52 h-auto"/>
+          <img src={socialIcon5} alt="" className="w-52 h-auto" />
+          <img src={socialIcon6} alt="" className="w-52 h-auto" />
         </div>
-
       </div>
       <hr />
       <div className="w-full h-32 flex justify-center items-center">
-        <a href="https://www.linkedin.com/in/pramendra-shukla-11812a221/" target="_blank" className="text-xl text-gray-700 hover:text-black font-bold shadow-md rounded-2xl p-2">Made With ❤️ By Pramendra Shukla</a>
+        <a
+          href="https://www.linkedin.com/in/pramendra-shukla-11812a221/"
+          target="_blank"
+          className="text-xl text-gray-700 hover:text-black font-bold shadow-md rounded-2xl p-2"
+        >
+          Made With ❤️ &nbsp;By Pramendra Shukla
+        </a>
       </div>
     </>
   );

@@ -17,9 +17,9 @@ import { TbDiscount2 } from "react-icons/tb";
 
 const Offers = () => {
   return (
-    <div className="p-20">
+    <div className="lg:p-20 p-10">
       
-      <div className="flex justify-between">
+      <div className="flex justify-between lg:flex-nowrap flex-wrap">
         <div className="flex flex-col items-center cursor-pointer">
           <img src={bedroom} alt="" className="w-36" />
           <p className="text-lg text-gray-600">Bedroom</p>
@@ -44,13 +44,13 @@ const Offers = () => {
           <img src={dining} alt="" className="w-36" />
           <p className="text-lg text-gray-600">Dining</p>
         </div>
-        <div className="flex flex-col items-center cursor-pointer">
+        <div className="lg:flex hidden flex-col items-center cursor-pointer mt-10 lg:mt-0">
           <img src={deals} alt="" className="w-36" />
           <p className="text-lg text-gray-600">Deals & Combos</p>
         </div>
       </div>
       <div className="mt-20 flex justify-center">
-        <Carousel className="rounded-xl w-1/2" transition={{ duration: 2 }}>
+        <Carousel className="rounded-xl lg:w-1/2 w-full" transition={{ duration: 2 }}>
           <img
             src={desktop1}
             alt="image 1"
@@ -78,8 +78,8 @@ const Offers = () => {
           />
         </Carousel>
       </div>
-      <div></div>
-      <div className="mt-32">
+
+      <div className="mt-32 lg:flex flex-col hidden">
         <h1 className="text-3xl text-[#222222] font-semibold">
           Offers & Discounts
         </h1>

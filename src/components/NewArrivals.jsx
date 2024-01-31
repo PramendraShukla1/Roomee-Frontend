@@ -21,14 +21,14 @@ import why_rent2 from "../assets/why_rent_carousel2_may5.jpg"
 const NewArrivals = () => {
   return (
     <div>
-      <div className="p-20 flex gap-3 items-center mb-2">
+      <div className="lg:p-20 p-10 flex gap-3 items-center mb-2">
         <img src={newImg} alt="" className="w-16" />
         <div>
           <p className="text-3xl text-gray-800">New Arrivals</p>
           <p className="text-gray-600">TO RENT</p>
         </div>
       </div>
-      <div className=" p-20 flex gap-10 flex-wrap ">
+      <div className=" lg:p-20 p-10 flex lg:gap-10 gap-36 flex-wrap ">
         {/* Product card */}
         <div className="relative">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
@@ -143,7 +143,7 @@ const NewArrivals = () => {
         </div>
         {/* Product card */}
         {/* Product card */}
-        <div className="relative mt-32">
+        <div className="relative lg:mt-32 mt-0">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
             <img src={sofa2} alt="" className="absolute bottom-36 w-[400px]" />
             <div className="">
@@ -169,7 +169,7 @@ const NewArrivals = () => {
         </div>
         {/* Product card */}
         {/* //!Product card */}
-        <div className="relative mt-32">
+        <div className="relative lg:mt-32 mt-0">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
             <img
               src={almira2}
@@ -199,7 +199,7 @@ const NewArrivals = () => {
         </div>
         {/* Product card */}
         {/* //!Product card start */}
-        <div className="relative mt-32">
+        <div className="relative lg:mt-32 mt-0">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
             <img src={bed2} alt="" className="absolute bottom-36 w-[400px]" />
             <div className="">
@@ -225,7 +225,7 @@ const NewArrivals = () => {
         </div>
         {/* Product card */}
         {/* //!Product card start */}
-        <div className="relative mt-32">
+        <div className="relative lg:mt-32 mt-0">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
             <img
               src={chair2}
@@ -257,15 +257,15 @@ const NewArrivals = () => {
       </div>
 
       {/* //!Banner starts */}
-      <div className="p-20">
+      <div className="lg:p-20 p-10 lg:flex hidden">
         <img src={banner} alt="" className="w-auto h-auto rounded-2xl" />
       </div>
       {/* Banner ends */}
 
       {/* //!Crowed favorites starts */}
-      <div className=" p-20 pt-0">
+      <div className=" lg:p-20 p-5  lg:pt-0">
         <div className="w-full h-full bigger_cards p-10 rounded-xl">
-          <div className="flex gap-5 items-center">
+          <div className="flex gap-5 items-center ">
             <img src={star} alt="" />
             <div className="text-white font-semibold flex flex-col">
               <p className="text-2xl">Crowd Favourites</p>
@@ -273,14 +273,14 @@ const NewArrivals = () => {
             </div>
           </div>
           {/* //!Cards start */}
-          <div className="mt-16 p-5 flex gap-7 justify-between">
+          <div className="mt-16 lg:p-5 p-0 flex gap-7 justify-between lg:flex-nowrap flex-wrap">
             <div className="relative">
               <img
                 src={sofaset}
                 alt=""
-                className="w-[450px] h-full rounded-2xl object-cover"
+                className="lg:w-[450px] w-[600px] h-full rounded-2xl object-cover"
               />
-              <div className="absolute w-64 h-32 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
+              <div className="absolute w-64 lg:h-32 h-24 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
                 <p className="text-xl text-gray-900">Sofas</p>
                 <div className="flex justify-between ">
                   <div>
@@ -300,7 +300,7 @@ const NewArrivals = () => {
                 alt=""
                 className="w-[450px] h-full rounded-2xl object-cover"
               />
-              <div className="absolute w-64 h-32 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
+              <div className="absolute w-64 lg:h-32 h-24 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
                 <p className="text-xl text-gray-900">Sofa sets</p>
                 <div className="flex justify-between ">
                   <div>
@@ -320,7 +320,7 @@ const NewArrivals = () => {
                 alt=""
                 className="w-[450px] h-full rounded-2xl object-cover"
               />
-              <div className="absolute w-64 h-32 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
+              <div className="absolute w-64 lg:h-32 h-24 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
                 <p className="text-xl text-gray-900">Coffee Tables</p>
                 <div className="flex justify-between ">
                   <div>
@@ -340,7 +340,7 @@ const NewArrivals = () => {
                 alt=""
                 className="w-[450px] h-full rounded-2xl object-cover"
               />
-              <div className="absolute w-64 h-32 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
+              <div className="absolute w-64 lg:h-32 h-24 bg-white bottom-5 left-4 rounded-2xl p-5 flex flex-col justify-center cursor-pointer">
                 <p className="text-xl text-gray-900">Solid Chairs</p>
                 <div className="flex justify-between ">
                   <div>
@@ -358,7 +358,7 @@ const NewArrivals = () => {
         </div>
       </div>
       {/* //!Why Roomee Starts*/}
-      <div className="p-20 pt-0">
+      <div className="p-20 pt-0 lg:flex lg:flex-col hidden">
 <div>
   <h1 className="text-3xl font-semibold text-gray-900">Why Roomee Rent ?</h1>
 </div>
