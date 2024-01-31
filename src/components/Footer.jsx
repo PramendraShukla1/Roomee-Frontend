@@ -11,11 +11,11 @@ const Footer = () => {
   return (
     <>
       <hr />
-      <div className="p-20 pb-0 w-full flex flex-row gap-10">
-        <div className="w-5/6  h-full flex gap-16">
-          <div className="w-1/3  h-72">
+      <div className="lg:p-20 p-5 pb-0 w-full flex flex-row gap-10 lg:flex-nowrap flex-wrap">
+        <div className="lg:w-5/6 w-full  h-full flex gap-16">
+          <div className="lg:w-1/3 w-full  h-72">
             <img src={logo} alt="" />
-            <div className="flex gap-7 justify-center mt-10">
+            <div className="flex gap-7 justify-center mt-10 lg:flex-nowrap flex-wrap">
               <img
                 src={socialIcon1}
                 alt=""
@@ -38,7 +38,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="w-1/3  h-72 flex justify-around">
+          <div className="lg:w-1/3 w-full  lg:h-72 h-auto flex justify-around lg:flex-nowrap flex-wrap">
             <div>
               <ul className="flex flex-col gap-3 text-lg font-semibold text-gray-600">
                 <li className="hover:text-black cursor-pointer">Home</li>
@@ -53,8 +53,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <ul className="flex flex-col gap-3 text-lg font-semibold text-gray-600">
+            <div >
+              <ul className="lg:flex hidden flex-col gap-3 text-lg font-semibold text-gray-600">
                 <li className="hover:text-black cursor-pointer">About Us</li>
                 <li className="hover:text-black cursor-pointer">
                   Privacy Policy
@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/6  h-72 p-10 pt-0 flex flex-col justify-start items-center">
+        <div className="lg:w-1/6 w-full  lg:h-72 h-full lg:p-10 mb-5 pt-0 flex flex-col justify-start items-center">
           <p className="text-xl font-semibold mb-5">Need Help?</p>
           <button className="pl-5 pr-5 pt-2 pb-2 text-white text-lg font-semibold rounded-full bg-[#059baa] hover:border hover:border-[#059baa] hover:bg-white hover:text-black hover:translate-y-1 duration-500">
             Help Center
@@ -74,15 +74,15 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="p-20 flex">
-        <div className="w-2/3">
+      <div className="lg:p-20 p-10 flex lg:flex-nowrap flex-wrap justify-center">
+        <div className="lg:w-2/3 w-full">
           <p className="font-semibold">CITIES WE DELIVER TO</p>
           <p>
             Bengaluru, Mumbai, Pune, Delhi, Gurugram, Noida, Hyderabad, Chennai,
             Ghaziabad, Faridabad, Jaipur, Mysuru, Chandigarh, Vijayawada, Nashik
           </p>
         </div>
-        <div className="w-1/3 flex gap-5">
+        <div className="lg:w-1/3 w-full flex gap-5 mt-10 lg:mt-0 lg:flex-nowrap flex-wrap">
           <img src={socialIcon5} alt="" className="w-52 h-auto" />
           <img src={socialIcon6} alt="" className="w-52 h-auto" />
         </div>

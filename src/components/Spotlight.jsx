@@ -14,8 +14,8 @@ import lastBanner from "../assets/why_rent_desktop_banner_may5.webp"
 
 const Spotlight = () => {
   return (
-    <div className="lg:p-10 p-3 mt-20 lg:mt-0 mb-10">
-      <div className="bg-gradient-spotlight lg:p-16 p-5 h-full rounded-xl">
+    <div className="lg:p-10 p-0 mt-20 lg:mt-0 mb-10">
+      <div className="bg-gradient-spotlight lg:p-16 p-10 h-full rounded-xl">
         <div>
           <p className="font-bold text-gray-700">In the</p>
           <p className="text-4xl font-semibold text-gray-800">Spotlight</p>
@@ -153,7 +153,7 @@ const Spotlight = () => {
       {/* //!Why Roomee Ends*/}
 
       {/* //! Extra 15% Off starts*/}
-      <div className="mt-36">
+      <div className="mt-36 p-3 lg:p-0">
         <div className=" flex gap-3 items-center mb-2">
           <img src={percent} alt="" className="w-16" />
           <div>

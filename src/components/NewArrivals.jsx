@@ -21,14 +21,14 @@ import why_rent2 from "../assets/why_rent_carousel2_may5.jpg"
 const NewArrivals = () => {
   return (
     <div>
-      <div className="lg:p-20 p-10 flex gap-3 items-center mb-2">
+      <div className="lg:p-20 p-10 flex gap-3 items-center mb-10">
         <img src={newImg} alt="" className="w-16" />
         <div>
           <p className="text-3xl text-gray-800">New Arrivals</p>
           <p className="text-gray-600">TO RENT</p>
         </div>
       </div>
-      <div className=" lg:p-20 p-10 flex lg:gap-10 gap-36 flex-wrap ">
+      <div className=" lg:p-20 p-3 flex lg:gap-10 gap-36 flex-wrap ">
         {/* Product card */}
         <div className="relative">
           <div className="w-96 h-[400px] shadow-xl flex items-end">
